@@ -1,0 +1,31 @@
+{
+  "name": "vim-cheat-sheet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --cache --ext ts,tsx,md,mdx",
+    "deploy": "node scripts/gh-pages-deploy.mjs"
+  },
+  "dependencies": {
+    "@mdx-js/preact": "^2.3.0",
+    "@mdx-js/rollup": "^2.3.0",
+    "preact": "^10.16.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@types/mdx": "^2.0.6",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.47.0",
+    "eslint-mdx": "^2.2.0",
+    "eslint-plugin-mdx": "^2.2.0",
+    "eslint-plugin-perfectionist": "^1.5.1",
+    "execa": "^7.2.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}

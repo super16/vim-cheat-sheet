@@ -1,0 +1,10 @@
+.pre-title {
+  color: rgba(255, 255, 255, .283);
+  font-size: 0.9em;
+}
+
+@media (prefers-color-scheme: light) {
+  .pre-title {
+    color: rgba(53, 53, 47, .5);
+  }
+}

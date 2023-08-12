@@ -1,0 +1,51 @@
+# Vim Cheat Sheet
+
+## Command mode
+
+### Basic
+
+* `:q` quit
+* `:q!` quit without saving changes
+* `:w` save edits
+* `:wq` save edits and quit
+* `ZZ` save edits and quit (equivalent to `:wq`)
+* `:w <new filename>` save as file with new filename
+* `:e!` reloads the last saved version to start again
+
+### Moving cursor
+
+* `h` left one character
+* `j` down one line
+* `k` up one line
+* `l` right one character
+* `0` to the beginning of the line
+* `$` to the end of the line
+* `w` move forward one word (punctuation & digits included)
+* `W` move forward one Word (only words)
+* `b` move backward one word (punctuation & digits included)
+* `B` move backward one word (only words)
+
+### Changing text
+
+* `cw` to the end of a word
+* `c$` to the end of the line
+* `c0` to the beginning of the line
+* `C` change from the current cursor position to the end of the line
+
+### Replace
+
+* `r` replace single character
+* `R` enters overstrike mode, replace character by character
+* `s` substitute character (delete character and enter insert mode)
+* `S` delete entire line from any position position of cursor on the line and enter insert mode 
+* `~` change case of the character
+
+### Delete
+
+* `dw` delete word
+* `dW` delete Word up to the next whitespace character
+* `dE` delete to the end of the word (keep space)
+* `db` delete backward (to the whitespace character before word)
+* `d$` delete to the end of the line
+* `d0` delete to the beginning of the line
+* `x` delete one character
