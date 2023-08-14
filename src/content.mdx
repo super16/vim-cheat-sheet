@@ -24,6 +24,8 @@
 * `W` move forward one Word (only words)
 * `b` move backward one word (punctuation & digits included)
 * `B` move backward one word (only words)
+* `{` move to the beginning of the current paragraph
+* `}` move to the beginning of the next paragraph
 
 ### Changing text
 
@@ -48,4 +50,11 @@
 * `db` delete backward (to the whitespace character before word)
 * `d$` delete to the end of the line
 * `d0` delete to the beginning of the line
+* `dd` delete the current line
+* `dt<character>` delete till the first occurance of the specified character
 * `x` delete one character
+
+### Moving text
+
+* `ddkkp` move the line up
+* `ddp` move the line below
