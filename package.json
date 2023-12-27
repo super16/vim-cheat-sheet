@@ -13,19 +13,19 @@
   "dependencies": {
     "@mdx-js/preact": "^3.0.0",
     "@mdx-js/rollup": "^3.0.0",
-    "preact": "^10.19.1"
+    "preact": "^10.19.3"
   },
   "devDependencies": {
-    "@preact/preset-vite": "^2.6.0",
+    "@preact/preset-vite": "^2.7.0",
     "@types/mdx": "^2.0.10",
-    "@typescript-eslint/eslint-plugin": "^6.10.0",
-    "@typescript-eslint/parser": "^6.10.0",
-    "eslint": "^8.53.0",
-    "eslint-mdx": "^2.2.0",
-    "eslint-plugin-mdx": "^2.2.0",
-    "eslint-plugin-perfectionist": "^2.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint": "^8.56.0",
+    "eslint-mdx": "^3.1.1",
+    "eslint-plugin-mdx": "^3.1.1",
+    "eslint-plugin-perfectionist": "^2.5.0",
     "execa": "^8.0.1",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.0"
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
   }
 }
